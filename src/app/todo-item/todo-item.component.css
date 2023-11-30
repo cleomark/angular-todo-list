@@ -1,0 +1,25 @@
+/* todo-item.component.css */
+
+.todo-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    margin-right: 8px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button {
+    margin-left: auto;
+    padding: 4px 8px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,25 @@
+/* todo-list.component.css */
+
+.todo-list {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .add-task {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
