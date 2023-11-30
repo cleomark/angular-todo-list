@@ -13,11 +13,14 @@
     text-decoration: line-through;
     color: #888;
   }
+  span{
+    margin-right: 10px;
+  }
   
   button {
     margin-left: auto;
     padding: 4px 8px;
-    background-color: #ff6b6b;
+    background-color: #e11717;
     color: #fff;
     border: none;
     cursor: pointer;

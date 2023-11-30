@@ -7,11 +7,23 @@
   
   .add-task {
     margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
   }
   
   input {
+    flex: 1; 
     padding: 8px;
     margin-right: 8px;
+    min-width: 50%;
+  }
+  button{
+    color: #fff;
+    background-color: #28a745;
+    border: solid 2px #28a745;
+    padding: 8px;
+    flex-shrink: 0;
   }
   
   ul {
