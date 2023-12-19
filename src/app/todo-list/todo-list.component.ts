@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-todo-list',
   templateUrl: './todo-list.component.html',
-  styleUrls: ['./todo-list.component.css']
+  styleUrls: ['./todo-list.component.css'],
 })
 export class TodoListComponent {
   newTask: string = '';
@@ -17,6 +17,8 @@ export class TodoListComponent {
   }
 
   removeTask(task: string) {
-    this.tasks = this.tasks.filter(t => t !== task);
+    setTimeout(() => {
+      this.tasks = this.tasks.filter((t) => t !== task);
+    }, 1000);
   }
 }

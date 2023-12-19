@@ -1,38 +1,39 @@
 /* todo-list.component.css */
 
 .todo-list {
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .add-task {
-    margin-bottom: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-  }
-  
-  input {
-    flex: 1; 
-    padding: 8px;
-    margin-right: 8px;
-    min-width: 50%;
-    max-width: 100%;
-  }
-  button{
-    color: #fff;
-    background-color: #28a745;
-    border: solid 2px #28a745;
-    padding: 8px;
-    flex-shrink: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 8px;
-  }
-  
+  max-width: 400px;
+  margin: auto;
+}
+
+.add-task {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 8px;
+  min-width: 50%;
+  max-width: 100%;
+  border-radius: 4px;
+}
+button {
+  color: #fff;
+  background-color: #28a745;
+  border: solid 2px #28a745;
+  border-radius: 4px;
+  padding: 8px;
+  flex-shrink: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}

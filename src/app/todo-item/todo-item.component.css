@@ -1,28 +1,32 @@
 /* todo-item.component.css */
 
 .todo-item {
-    display: flex;
-    align-items: center;
-  }
-  
-  input {
-    margin-right: 8px;
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    color: #888;
-  }
-  span{
-    margin-right: 10px;
-  }
-  
-  button {
-    margin-left: auto;
-    padding: 4px 8px;
-    background-color: #e11717;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-right: 8px;
+}
+input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+span {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: auto;
+  padding: 4px 8px;
+  background-color: #e11717;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
